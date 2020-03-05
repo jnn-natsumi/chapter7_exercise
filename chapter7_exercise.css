@@ -10,6 +10,10 @@ a {
 	color:rgb(85,26,139);
 }
 
+p{
+	color:black;
+}
+
 .clearfix::after{
 	content:"";
 	display:block;
@@ -27,7 +31,7 @@ section .headline{
 }
 
 section a{
-	border-bottom:8px solid #f7f7f7;
+	border-bottom:1px solid #d1d1d1;
 	text-align:center;
 	line-height:0.6;
 
@@ -43,16 +47,39 @@ section a{
 
 main{
 	width:840px;
-	margin-right:30px;
+	margin:50px auto;
+
 }
 
-div .blog-item{
+.service-item{
 	text-align:center;
 }
 
-.blog-item{
-	padding-top:50px;
+.service1{
 	padding-bottom:30px;
-	border-bottom:1px solid #f7f7f7;
+	border-bottom:1px solid #d1d1d1;
 	margin:0 auto;
 }
+
+.service2{
+	margin-top:30px;
+	margin-bottom:30px;
+	border-bottom:1px solid #d1d1d1;
+	padding-bottom:30px;
+}
+
+.service3{
+	margin-top:30px;
+	margin-bottom:30px;
+	border-bottom:1px solid #d1d1d1;
+	padding-bottom:30px;
+}
+
+.service4{
+	margin-top:30px;
+	margin-bottom:30px;
+	border-bottom:1px solid #d1d1d1;
+	padding-bottom:30px;
+}
+
+
